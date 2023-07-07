@@ -1,0 +1,153 @@
+<!-- Codice per Collapse con Collapse interni -->
+<div id="accordion">
+  <!-- Collapse Generico -->
+  <div id="card-generica" class="card bg-dark">
+    <button
+      class="btn btn-dark"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapse-generico"
+      aria-expanded="true"
+      aria-controls="collapse-generico"
+    >
+      Collapse Generico
+    </button>
+
+    <div
+      id="collapse-generico"
+      class="collapse show"
+      aria-labelledby="collapse-generico-heading"
+      data-bs-parent="#accordion"
+    >
+      <div class="card-body text-white bg-secondary">
+        <!-- Contenuto del Collapse Generico -->
+
+        <!-- Primo collapse figlio -->
+        <div class="card bg-dark mt-3">
+          <button
+            class="btn btn-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#primo-collapse-figlio"
+            aria-expanded="false"
+            aria-controls="primo-collapse-figlio"
+          >
+            Primo Collapse Figlio
+          </button>
+          <div
+            id="primo-collapse-figlio"
+            class="collapse"
+            aria-labelledby="primo-collapse-figlio-heading"
+            data-bs-parent="#collapse-generico"
+          >
+            <div class="card-body text-white bg-secondary">
+              <!-- Contenuto del primo Collapse Figlio -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Secondo collapse figlio -->
+        <div class="card bg-dark mt-3">
+          <button
+            class="btn btn-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#secondo-collapse-figlio"
+            aria-expanded="false"
+            aria-controls="secondo-collapse-figlio"
+          >
+            Secondo Collapse Figlio
+          </button>
+          <div
+            id="secondo-collapse-figlio"
+            class="collapse"
+            aria-labelledby="secondo-collapse-figlio-heading"
+            data-bs-parent="#collapse-generico"
+          >
+            <div class="card-body text-white bg-secondary">
+              <!-- Contenuto del secondo Collapse Figlio -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- navbar -->
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"
+      ><img
+        id="logo-esperia"
+        class="rounded-circle"
+        src="Assets/logo-esperia.jpg"
+        alt=""
+    /></a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Storia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="html/I Nostri PG.html"
+            >I nostri Personaggi</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="html/Scheda.html">Crea la Tua scheda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contattaci</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto row">
+        <div class="col-4">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.facebook.com/profile.php?id=100064419533156"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+        </div>
+        <div class="col-4">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.instagram.com/leggende_di_esperia/?hl=de"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </div>
+        <div class="col-4">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fas fa-envelope-square"></i>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>I Nostri Pg</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+    "
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../Assets/css/style.css" />
+    <link rel="stylesheet" href="../Assets/css/font.css" />
+  </head>
+  <body style="background-color: black">
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              id="logo-esperia"
+              class="rounded-circle"
+              src="../Assets/logo-esperia.jpg"
+              alt=""
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Storia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="I Nostri PG.html"
+                  >I nostri Personaggi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Scheda.html">Crea la Tua scheda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contattaci</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto row">
+              <div class="col-4">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.facebook.com/profile.php?id=100064419533156"
+                    target="_blank"
+                  >
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+              </div>
+              <div class="col-4">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.instagram.com/leggende_di_esperia/?hl=de"
+                    target="_blank"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </div>
+              <div class="col-4">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-envelope-square"></i>
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h2 class="text-center medievale">
+          “Ho una malattia si chiama fantasia: porta quasi all'eresia è
+          considerata pazzia...”
+        </h2>
+
+        <div id="accordion">
+          <!-- Collapse clanOrso -->
+          <div id="card-orso" class="card bg-dark">
+            <button
+              class="btn btn-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-clanOrso"
+              aria-expanded="true"
+              aria-controls="collapse-clanOrso"
+            >
+              Clan dell'orso
+            </button>
+
+            <div
+              id="collapse-clanOrso"
+              class="collapse show"
+              aria-labelledby="collapse-clanOrso-heading"
+              data-bs-parent="#accordion"
+            >
+              <div class="card-body text-white bg-secondary">
+                <!-- Contenuto del Collapse clanOrso -->
+
+                <!-- Collapse il Clan -->
+                <div class="card bg-dark mt-3">
+                  <button
+                    class="btn btn-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse-ilclan"
+                    aria-expanded="false"
+                    aria-controls="collapse-ilclan"
+                  >
+                    Il Clan
+                  </button>
+                  <div
+                    id="collapse-ilclan"
+                    class="collapse"
+                    aria-labelledby="collapse-ilclan-heading"
+                    data-bs-parent="#collapse-clanOrso"
+                  >
+                    <div class="medievale card-body text-white bg-secondary">
+                      <div class="card">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <div
+                              id="carousel-clan"
+                              class="carousel slide"
+                              data-bs-ride="carousel"
+                            >
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img
+                                    src="../Assets/Foto varie/Clan-orso-1.jpg"
+                                    class="d-block w-100"
+                                    alt="Image 1"
+                                  />
+                                </div>
+                                <div class="carousel-item">
+                                  <img
+                                    src="../Assets/Foto varie/Clan-orso-2.jpg"
+                                    class="d-block w-100"
+                                    alt="Image 2"
+                                  />
+                                </div>
+                                <div class="carousel-item">
+                                  <img
+                                    src="../Assets/Foto varie/Clan-orso-3.jpg"
+                                    class="d-block w-100"
+                                    alt="Image 3"
+                                  />
+                                </div>
+                              </div>
+                              <button
+                                class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carousel-clan"
+                                data-bs-slide="prev"
+                              >
+                                <span
+                                  class="carousel-control-prev-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button
+                                class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carousel-clan"
+                                data-bs-slide="next"
+                              >
+                                <span
+                                  class="carousel-control-next-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Clan Dell'Orso</h5>
+                              <p class="card-text">
+                                Tra i vari Clan liberi della regione
+                                dell‘Eilifjür il Bjarnarætt (Clan dell’Orso) era
+                                quello che spiccava per forza grazie al suo
+                                esercito composto per la maggior parte da
+                                Bersekir, guerrieri dotati di una forza
+                                straordinaria benedetti dagli Dei. A capo del
+                                clan c’era il possente Erik l’Orso con i suoi
+                                figli al seguito: Valeska, fredda e
+                                calcolatrice, e Siegfrid, impulsivo e assetato
+                                di potere. Tra le figure di spicco del clan
+                                insieme ad Erik, c’erano: la moglie Aslaug a
+                                capo delle skjaldmær; Arica prima skjaldmær di
+                                Aslaug; Balder cerusico e consigliere di Erik;
+                                Harald ottimo razziatore ma ancor più ottimo
+                                costruttore di navi; Gunnar, guerriero la cui
+                                brutalità era seconda solo alla sua ferocia; il
+                                sacerdote e berserkr Karlr e sua moglie Astryr,
+                                capoguerra e conosciuta anche fuori dal clan
+                                come una delle persone più forti che l’Eilifjür
+                                avesse conosciuto.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Secondo collapse figlio -->
+                <div class="card bg-dark mt-3">
+                  <button
+                    class="btn btn-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#secondo-collapse-figlio"
+                    aria-expanded="false"
+                    aria-controls="secondo-collapse-figlio"
+                  >
+                    Jarl Valeska
+                  </button>
+                  <div
+                    id="secondo-collapse-figlio"
+                    class="collapse"
+                    aria-labelledby="secondo-collapse-figlio-heading"
+                    data-bs-parent="#collapse-clanOrso"
+                  >
+                    <div class="card-body medievale text-white bg-secondary">
+                      <!-- Contenuto del secondo Collapse Figlio -->
+                      <div class="card">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <div
+                              id="carousel-jarl"
+                              class="carousel slide"
+                              data-bs-ride="carousel"
+                            >
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img
+                                    src="../Assets/Foto varie/jarl-1.jpg"
+                                    class="d-block w-100"
+                                    alt="Image 1"
+                                  />
+                                </div>
+                                <div class="carousel-item">
+                                  <img
+                                    src="../Assets/Foto varie/jarl-2.jpg"
+                                    class="d-block w-100"
+                                    alt="Image 2"
+                                  />
+                                </div>
+                                <div class="carousel-item">
+                                  <img
+                                    src="../Assets/Foto varie/jarl-3.jpeg"
+                                    class="d-block w-100"
+                                    alt="Image 3"
+                                  />
+                                </div>
+                              </div>
+                              <button
+                                class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carousel-jarl"
+                                data-bs-slide="prev"
+                              >
+                                <span
+                                  class="carousel-control-prev-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button
+                                class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carousel-jarl"
+                                data-bs-slide="next"
+                              >
+                                <span
+                                  class="carousel-control-next-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Jarl Valeska</h5>
+                              <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Nam temporibus animi similique
+                                quidem ratione perferendis ad, fugiat incidunt!
+                                Ut, ea asperiores porro quia nihil quas aut
+                                veniam libero nobis molestias! Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Neque,
+                                inventore. Labore ad esse, illo vitae repellat
+                                suscipit voluptas, sed, consequatur rerum quas
+                                ut voluptates! Reprehenderit nihil cupiditate
+                                nesciunt neque ea! Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Incidunt odit ipsa
+                                tenetur facere itaque magni non minima, magnam
+                                quia quaerat explicabo. Qui expedita illum ipsa
+                                cum reprehenderit vitae nemo eum.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="card-cercatori" class="card bg-dark">
+            <button
+              class="btn btn-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-generico"
+              aria-expanded="true"
+              aria-controls="collapse-generico"
+            >
+              Compagnia dei Cercatori di Stelle
+            </button>
+
+            <div
+              id="collapse-generico"
+              class="collapse show"
+              aria-labelledby="collapse-generico-heading"
+              data-bs-parent="#accordion"
+            >
+              <div class="card-body text-white bg-secondary">
+                <!-- Contenuto del Collapse Generico -->
+
+                <!-- Primo collapse figlio -->
+                <div class="card bg-dark mt-3">
+                  <button
+                    class="btn btn-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#primo-collapse-figlio"
+                    aria-expanded="false"
+                    aria-controls="primo-collapse-figlio"
+                  >
+                    Alàlie Envinytarhini
+                  </button>
+                  <div
+                    id="primo-collapse-figlio"
+                    class="collapse"
+                    aria-labelledby="primo-collapse-figlio-heading"
+                    data-bs-parent="#collapse-generico"
+                  >
+                    <div class="card-body text-white bg-secondary">
+                      <!-- Contenuto del primo Collapse Figlio -->
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Secondo collapse figlio -->
+                <div class="card bg-dark mt-3">
+                  <button
+                    class="btn btn-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#secondo-collapse-figlio"
+                    aria-expanded="false"
+                    aria-controls="secondo-collapse-figlio"
+                  >
+                    Telumendil Yualeon
+                  </button>
+                  <div
+                    id="secondo-collapse-figlio"
+                    class="collapse"
+                    aria-labelledby="secondo-collapse-figlio-heading"
+                    data-bs-parent="#collapse-generico"
+                  >
+                    <div class="card-body text-white bg-secondary">
+                      <!-- Contenuto del secondo Collapse Figlio -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
